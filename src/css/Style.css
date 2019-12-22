@@ -1,7 +1,8 @@
 /* Header */
-*{
+* {
   box-sizing: border-box;
 }
+
 body {
   background-color: #e5e5e5;
 }
@@ -27,8 +28,8 @@ header {
 
 header .header {
   padding: 10px 40px;
-  display:flex;
-  justify-content:space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header-brand h4 {
@@ -67,7 +68,7 @@ header .header {
   vertical-align: middle;
 }
 
-.header-menu div:last-child{
+.header-menu div:last-child {
   margin-right: 0;
 }
 
@@ -106,7 +107,7 @@ header .header {
 
 .name p {
   display: block;
-  margin-bottom:0px;
+  margin-bottom: 0px;
 }
 
 /* Aside */
@@ -129,7 +130,7 @@ aside p {
   font-size: 11px;
 }
 
-aside ul li.active{
+aside ul li.active {
   font-size: 11px;
   border-left: 3px solid #1875f0;
   background-color: #ecf7f6;
@@ -167,31 +168,35 @@ aside div:first-child {
   max-width: 246px;
 }
 
-.transaction-card:last-child{
+.transaction-card:last-child {
   margin-right: 0;
 }
 
-.col-max{
+.col-max {
   max-width: 255px;
 }
+
 .transaction-card .card-body {
   display: flex;
   justify-content: space-between;
   padding: .9rem;
 }
+
 .transaction-card .card-body div:nth-child(2) {
   position: relative;
 }
-.transaction-card .graph-line{
+
+.transaction-card .graph-line {
   position: absolute;
 }
- .transaction-card div .title {
-   font-size: 12px;
-   line-height: 16px;
-   margin: 0;
- }
 
- .transaction-card div .value {
+.transaction-card div .title {
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0;
+}
+
+.transaction-card div .value {
   font-size: 18px;
   line-height: 24px;
   font-weight: 500;
@@ -234,7 +239,7 @@ aside div:first-child {
 }
 
 .crud-nav div:first-child {
- margin-right: 10px;
+  margin-right: 10px;
 }
 
 .crud-nav div::after {
@@ -269,19 +274,20 @@ aside div:first-child {
   vertical-align: super;
 }
 
-.plr{
+.plr {
   padding-left: 0;
   padding-right: 0;
 }
 
-.graph-dline div{
+.graph-dline div {
   min-height: 203px;
-    border-right: 1px solid rgb(188, 241, 245);
-    background: transparent;
-    text-align: center;
+  border-right: 1px solid rgb(188, 241, 245);
+  background: transparent;
+  text-align: center;
 }
-.graph-dline div:last-child{
-    border-right: none
+
+.graph-dline div:last-child {
+  border-right: none
 }
 
 .graph-dline {
@@ -291,7 +297,7 @@ aside div:first-child {
 
 .graph-dline h6 {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 /* Order Payment */
@@ -302,11 +308,18 @@ aside div:first-child {
   margin: 8px 0;
 }
 
+.select-option {
+  color: #1875f0;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
 .order-payment p {
   margin-bottom: 4px;
 }
 
-.order-payment span{
+.order-payment span {
   font-weight: 500;
 }
 
@@ -350,41 +363,44 @@ aside div:first-child {
   font-size: 12px;
 }
 
-.pymt div.status::before{
+.pymt div.status::before {
   content: '';
-    height: 9px;
-    width: 9px;
-    border-radius: 30px;
-    position: absolute;
-    margin-left: -17px;
-    margin-top: 5px;
+  height: 9px;
+  width: 9px;
+  border-radius: 30px;
+  position: absolute;
+  margin-left: -17px;
+  margin-top: 5px;
 }
-.pymt div.status.yellow{
+
+.pymt div.status.yellow {
   color: #ebc315;
 }
 
-.pymt div.yellow::before{
+.pymt div.yellow::before {
   background-color: #ebc315;
   color: #ebc315;
 }
 
-.pymt div.status.green{
+.pymt div.status.green {
   color: #27ae60;
 }
 
-.pymt div.green::before{
+.pymt div.green::before {
   background-color: #27ae60;
   color: #27ae60;
 }
-.pymt div.status.gray{
+
+.pymt div.status.gray {
   color: gray;
 }
-.pymt div.gray::before{
+
+.pymt div.gray::before {
   background-color: gray;
   color: gray;
 }
 
-.pymt div.arrow{
+.pymt div.arrow {
   width: 25px;
   height: 25px;
   margin-left: 5px;
@@ -416,45 +432,48 @@ aside div:first-child {
 .pymt tbody tr {
   border-bottom: 1px solid #cccfd4;
 }
+
 .pymt tbody tr td {
   padding: .8rem;
   background-color: white;
 }
 
-.pymt table th{
+.pymt table th {
   font-size: 14px;
   font-weight: normal;
   padding: .8rem;
   background-color: #eaeef0;
 }
 
-select.drop-down{
+select.drop-down {
   border: 1px solid #ced0da;
   border-radius: 2px;
   font-size: 13px;
   height: 30px;
-  background: transparent; 
+  background: transparent;
   margin-left: 7px;
 }
 
-.drop-down-option{
+.drop-down-option {
   padding: 5px 8px;
 }
 
-.drop-down option:hover{
+.drop-down option:hover {
   background-color: #f4f4f4 !important;
   -webkit-appearance: none;
 }
 
-.search-payments input{
+.search-payments input {
   border: 0;
   outline: 0;
   background: transparent;
   margin-left: 9px;
   padding-left: 2px;
   font-size: 11px;
+  width: 90%;
 }
-.search-payments .fa{
+
+.search-payments .fa {
   color: gray;
 }
 
@@ -462,24 +481,28 @@ select.drop-down{
   padding: 0px 0px 5px;
   border-bottom: 0.5px solid #787878;
 }
-.table-footer{
+
+.table-footer {
   padding: 20px 0;
 }
-.table-footer ul{
+
+.table-footer ul {
   margin: 0;
   padding: 0;
 }
-.table-footer ul li{
+
+.table-footer ul li {
   display: inline-flex;
   font-size: 13px;
-    padding: 10px;
-    border: 1px solid #ced0da;
-    border-radius: 2px;
-    height: 31px;
-    justify-content: center;
-    align-items: center;
+  padding: 10px;
+  border: 1px solid #ced0da;
+  border-radius: 2px;
+  height: 31px;
+  justify-content: center;
+  align-items: center;
 }
-.table-footer ul li.active{
-background: #1875f0;
-color: #fff;
+
+.table-footer ul li.active {
+  background: #1875f0;
+  color: #fff;
 }
